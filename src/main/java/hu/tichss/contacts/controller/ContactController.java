@@ -1,6 +1,6 @@
 package hu.tichss.contacts.controller;
 
-import hu.tichss.contacts.domain.Contact;
+import hu.tichss.contacts.model.Contact;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
@@ -30,6 +30,7 @@ public class ContactController {
         log.info(contact.toString());
         return "contact-create";
     }
+
 
     @InitBinder
     public void initBinder(WebDataBinder binder) {

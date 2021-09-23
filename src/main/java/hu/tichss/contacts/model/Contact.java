@@ -1,4 +1,4 @@
-package hu.tichss.contacts.domain;
+package hu.tichss.contacts.model;
 
 
 import lombok.Data;
