@@ -1,13 +1,18 @@
 package hu.tichss.contacts.domain;
 
+
+import lombok.Data;
 import java.util.Date;
 
+
+@Data
+
 public class Contact {
-    private long id;
+    private Long id;
     private String name;
     private String phone;
     private String email;
+    private String address;
     private Date birthDate;
     private Date createdAt;
-
 }
